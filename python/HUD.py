@@ -1,6 +1,6 @@
-    import pygame
+import pygame
 
-from LevelMario import Mario
+from python.LevelMario import Mario
 
 
 class HUD:

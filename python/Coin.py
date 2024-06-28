@@ -1,5 +1,5 @@
 import pygame
-from Distance import Distance
+from python.Distance import Distance
 
 
 class Coin:

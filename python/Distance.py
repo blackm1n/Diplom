@@ -1,5 +1,4 @@
 import math
-import Distance
 
 
 class Distance:
@@ -16,7 +15,7 @@ class Distance:
         self.subsubpixels = subsubpixels
         self.subsubsubpixels = subsubsubpixels
 
-    def add_distance_d(self, distance: Distance):
+    def add_distance_d(self, distance):
         if distance.get_distance(5) < 0:
             self.remove_distance_d(distance.reverse())
             return
@@ -60,7 +59,7 @@ class Distance:
             self.pixels -= 16
             self.blocks += 1
 
-    def remove_distance_d(self, distance: Distance):
+    def remove_distance_d(self, distance):
         self.blocks -= distance.get_blocks()
         self.pixels -= distance.get_pixels()
         self.subpixels -= distance.get_subpixels()

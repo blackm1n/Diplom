@@ -1,14 +1,12 @@
-import pygame
-
-from Block import Block
-from Coin import Coin
-from CoinBlock import CoinBlock
-from Flag import Flag
-from Koopa import Koopa
-from LevelMario import Mario
-from Distance import Distance
-from Pole import Pole
-from ScoreNum import ScoreNum
+from python.Block import Block
+from python.Coin import Coin
+from python.CoinBlock import CoinBlock
+from python.Flag import Flag
+from python.Koopa import Koopa
+from python.LevelMario import Mario
+from python.Distance import Distance
+from python.Pole import Pole
+from python.ScoreNum import ScoreNum
 
 
 class CollisionHandler:

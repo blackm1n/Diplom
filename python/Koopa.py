@@ -1,7 +1,7 @@
 import random
 import pygame
 
-from Distance import Distance
+from python.Distance import Distance
 
 
 class Koopa:

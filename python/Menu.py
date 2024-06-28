@@ -1,7 +1,7 @@
 import pygame
 
-from HUD import HUD
-from Level import Level
+from python.HUD import HUD
+from python.Level import Level
 
 
 class Menu:

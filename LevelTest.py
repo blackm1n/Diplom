@@ -1,6 +1,6 @@
 import pygame
 
-from Menu import Menu
+from python.Menu import Menu
 from python.HUD import HUD
 from python.Level import Level
 from python.CollisionHandler import CollisionHandler
